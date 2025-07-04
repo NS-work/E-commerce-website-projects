@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>E-Commerce Website</title>
+        <meta charset="UTf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" href="ecom.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="left">
+                <h1>MyStore</h1>
+                <p>Welcome to MyStore</p>
+            </div>
+            <div class="right">
+                <p><input type="search" placeholder="Search"><button >search</button></p>
+            </div>
+        </header>
+        <nav>
+            <div class="left-nav">
+                <a href="#">M<span class="logo">S</span></a>
+            </div>
+            <div class="center-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="right-nav">
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </nav>
+        <div class="filter-box">
+            <div class="filter">
+                <h4>Category</h4>
+                <p><input type="radio" id="men" name="Category" value="men"> <label  for="men">Men</label></p>
+                <p><input type="radio" id="women" name="Category" value="women"> <label  for="women">Women</label></p>
+                <p><input type="radio" id="Kids" name="Category" value="kids"> <label  for="Kids">Kids</label></p>
+            </div>
+            <div class="filter rating">
+                <h4>Rating</h4>
+                <p><input type="radio" id="one"  name="rating" value=" 1"><label for="one">1</label></p>
+                <p><input type="radio" id="two" name="rating" value=" 2"><label for="two" >2</label></p>
+                <p><input type="radio" id="three" name="rating" value=" 3"><label for="three" >3</label></p>
+                <p><input type="radio" id="four" name="rating" value=" 4"><label for="four" >4</label></p>
+                <p><input type="radio" id="five" name="rating" value=" 5"><label for="five" >5</label></p>
+            </div>
+        </div>
+        <main>
+            <section class="s">
+                <h2>Men</h2>
+                <div class="cart-sec">
+                    <div class="cart" data-category="men" data-price="699" data-rating="3" >
+                        <div class="img img1">
+                        </div>
+                        <h3>T-Shirt</h3>
+                        <p>Rs. 699</p>
+                        <p>Rating: 3</p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="cart" data-category="men" data-price="550" data-rating="5">
+                        <div class="img img2">
+                        </div>
+                        <h3>T-Shirt</h3>
+                        <p>Rs. 550</p>
+                        <p>Rating: 5</p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="cart" data-category="men" data-price="400" data-rating="3">
+                        <div class="img img3">
+                        </div>
+                        <h3>T-Shirt</h3>
+                        <p>Rs. 400</p>
+                        <p>Rating: 3</p>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </section>
+            <section class="s">
+                <div class="cart-sec">
+                    <div class="cart" data-category="men" data-price="599" data-rating="4.7">
+                        <div class="img img4">
+                        </div>
+                        <h3>T-Shirt</h3>
+                        <p>Rs. 599</p>
+                        <p>Rating: 4.7</p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="cart" data-category="men" data-price="279" data-rating="2.9">
+                        <div class="img img5">
+                        </div>
+                        <h3>T-Shirt</h3>
+                        <p>Rs. 279</p>
+                        <p>Rating: 2.9</p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="cart" data-category="men" data-price="450" data-rating="4">
+                        <div class="img img6">
+                        </div>
+                        <h3>T-Shirt</h3>
+                        <p>Rs. 450</p>
+                        <p>Rating: 4</p>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <section class="Aboutus" id="about">
+                <h2>About Us</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis eos error ipsum asperiores quis itaque corporis eveniet earum commodi saepe laborum nostrum, facilis, numquam accusamus pariatur voluptatibus cupiditate doloribus et? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus temporibus, perspiciatis cumque sit doloribus unde laborum culpa repudiandae explicabo. Labore, quidem itaque ex cum laborum voluptatibus laudantium a commodi? Iusto!
+                Possimus officia accusamus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis eos error ipsum asperiores quis itaque corporis eveniet earum commodi saepe laborum nostrum, facilis, numquam accusamus pariatur voluptatibus cupiditate doloribus et? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus temporibus, perspiciatis cumque sit doloribus unde laborum culpa repudiandae explicabo. Labore, quidem itaque ex cum laborum voluptatibus laudantium a commodi? Iusto!
+                Possimus officia accusamuducimus et cumque voluptas laudantium quas earum consequuntur at? Provident assumenda error aliquid deleniti dolorum! Reiciendis molestiae consequuntur modi laborum nemo voluptatem ducimus mollitia totam voluptate odit?</p>
+        </section>
+        <section class="Contactus" id="contact">
+                <h2>Contact Us</h2>
+                <form action="#">
+                    <label for="uname">Name:</label><input type="text" id="uname" placeholder="Name">
+                    <label for="mob">Mobile:</label><input type="text" id="mob" placeholder="Mobile">
+                    <label for="message">Your Query:</label><textarea id="message" name="message" placeholder="Your Query" rows="2" cols="20"></textarea>
+                    <button class="btn">submit</button>
+                </form>
+        </section>
+        <footer>
+            <p class="fp">&copy; 2025 My Store. All rights reserved.</p>
+        </footer>
+
+        <script src="ecom.js"></script>
+    </body>
+</html>
