@@ -23,6 +23,7 @@ header{
     text-align: center;
     border-bottom: 1px solid ;
     display: flex;
+    flex-wrap:wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -103,22 +104,22 @@ section{
 }
 
 .img1{
-    background-image: url("/E-Com Website/images/img1.jpg");
+    background-image: url("images/img1.jpg");
 }   
 .img2{
-    background-image: url("/E-Com Website/images/img2.jpg");
+    background-image: url("images/img2.jpg");
 } 
 .img3{
-    background-image: url("/E-Com Website/images/img5.jpg");
+    background-image: url("images/img5.jpg");
 } 
 .img4{
-    background-image: url("/E-Com Website/images/img3.webp");
+    background-image: url("images/img3.webp");
 } 
 .img5{
-    background-image: url("/E-Com Website/images/img6.png");
+    background-image: url("images/img6.png");
 } 
 .img6{
-    background-image: url("/E-Com Website/images/img6.webp");
+    background-image: url("images/img6.webp");
 
 } 
 .img{
